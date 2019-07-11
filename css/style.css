@@ -1,0 +1,814 @@
+html {
+	scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1080px;
+    background-image: url(../images/bg.jpg);
+    background-color: #c7b39b;
+    background-repeat: no-repeat; 
+	/* position: relative; */
+ 	overflow-x: hidden;
+    margin: 0;
+    font-family: "Open Sans";
+    font-style: normal; 
+    font-variant: normal; 
+	/*font-family: 'Roboto';*/
+	font-size: 18px;
+}
+/*  */
+
+.alert-success {
+    border-color: transparent;
+}
+
+.modal-portraits-img {
+    float:left;
+    margin: 7px 7px 7px 0;
+    width: 300px;
+	height: 400px; 
+}
+/* НАЧАЛО ФРАГМЕНТОВ */
+    body a div  {
+        z-index: 2;
+        position: absolute; 
+        padding:0px;
+        border: 0px;
+        display: inline-block;
+        opacity: 0.0; /* Полупрозрачный фон */
+        filter: alpha(Opacity=0); /* Прозрачность в IE */
+    }
+    /* 1 ФРАГМЕНТ */
+        /* верхний ряд */
+            /* Ломоносов Михаил Васильевич */
+            .img-lomonosov {
+                top: 217px; 
+                left: 0px;
+                width: 64px;
+                height: 67px;
+            }
+            /* Ермак Тимофеевич */
+            .img-Ermak {
+                top: 217px; 
+                left: 64px;
+                width: 61px;
+                height: 96px;
+            }
+            /* Баранов, Александр Андреевич */
+            .img-Baranov {
+                top: 217px; 
+                left: 125px;
+                width: 65px;
+                height: 92px;
+            }
+            /* Орловский, Борис Иванович */
+            .img-Orlovskiy {
+                top: 217px; 
+                left: 190px;
+                width: 66px;
+                height: 96px;
+            }
+            /* Кутузов, Михаил Илларионович */
+            .img-Kutuzov {
+                top: 217px; 
+                left: 256px;
+                width: 76px;
+                height: 110px;
+            }
+            /* Ушаков, Фёдор Фёдорович */
+            .img-Ushakov {
+                top: 217px; 
+                left: 332px;
+                width: 62px;
+                height: 96px;
+            }
+        /* нижний ряд */
+            /* Платов */
+            .img-Platov {
+                top: 379px; 
+                left: 18px;
+                width: 59px;
+                height: 77px;
+            }
+            /* Пушкин Александр Сергеевич */
+            .img-Pushkin {
+                top: 358px;
+                left: 76px; 
+                width: 66px;
+                height: 85px;
+            }
+            /* Ермолов, Алексей Петрович */
+            .img-Ermolov {
+                top: 373px;
+                left: 144px;
+                width: 59px;
+                height: 89px;
+            }
+            /* Лермонтов, Михаил Юрьевич */
+            .img-Lermantov {
+                top: 399px;
+                left: 228px;
+                width: 53px;
+                height: 74px;
+            }
+            /* Кошка, Пётр Маркович */
+            .img-Koshka {
+                top: 366px; 
+                left: 253px;
+                width: 55px;
+                height: 76px;
+                z-index: 1;
+            }
+            /* Муравьёв-Карский, Николай Николаевич */
+            .img-Muravev {
+                top: 404px;
+                left: 313px;
+                width: 63px;
+                height: 77px;
+            }
+        /* сидит */
+            /* Давыдов, Денис Васильевич */
+            .img-Davidov {
+                top: 525px; 
+                left: 260px;
+                width: 60px;
+                height: 72px;
+            }
+    /* 2 ФРАГМЕНТ */
+        /* верхний ряд */
+            /* Суворов, Александр Васильевич */
+            .img-Suvorov {
+                top: 247px; 
+                left: 400px;
+                width: 48px;
+                height: 66px;
+            }
+            /* Нахимов, Павел Степанович */
+            .img-Nakhimov {
+                top: 306px; 
+                left: 460px;
+                width: 48px;
+                height: 66px;
+            }
+            /* Толстой, Алексей Константинович */
+            .img-TolstoiAK {
+                top: 275px; 
+                left: 498px;
+                width: 48px;
+                height: 66px;        
+                z-index: 1;
+            }
+            /* Пржевальский, Николай Михайлович */
+            .img-Prjevalski {
+                top: 300px; 
+                left: 546px;
+                width: 48px;
+                height: 66px;  
+            }
+            /* Пирогов, Николай Иванович */
+            .img-Pirogov {
+                top: 302px; 
+                left: 583px;
+                width: 48px;
+                height: 66px;      
+                z-index: 1; 
+            }
+            /* Тютчев, Фёдор Иванович */
+            .img-Tutchev {
+                top: 330px; 
+                left: 643px;
+                width: 48px;
+                height: 66px;     
+                z-index: 1; 
+            }
+        /* нижний ряд */
+            /* Даша Севастопольская */
+            .img-Sevastopolskaya {
+                top: 409px; 
+                left: 428px;
+                width: 48px;
+                height: 66px;   
+            }
+            /* Гоголь Николай Васильевич */
+            .img-Gogol {
+                top: 400px; 
+                left: 476px;
+                width: 48px;
+                height: 66px;   
+                z-index: 1;
+            }
+            /* Толстой, Лев Николаевич */
+            .img-TolstoiLN {
+                top: 400px; 
+                left: 535px;
+                width: 48px;
+                height: 66px; 
+            }
+            /* Фет, Афанасий Афанасьевич */
+            .img-Fet {
+                top: 370px; 
+                left: 571px;
+                width: 48px;
+                height: 66px; 
+                z-index: 1;
+            }
+            /* Тургенев, Иван Сергеевич */
+            .img-Turgenev {
+                top: 384px; 
+                left: 630px;
+                width: 48px;
+                height: 66px; 
+            }
+        /* сидят */
+            /* Сеславин, Александр Никитич */
+            .img-Seslavin {
+                top: 614px; 
+                left: 431px;
+                width: 48px;
+                height: 66px; 
+            }
+            /* Кульнев, Яков Петрович */
+            .img-Kulnev {
+                top: 619px; 
+                left: 565px;
+                width: 67px;
+                height: 77px;
+            }
+    /* 3 ФРАГМЕНТ */
+        /* Блок людей */
+            /* Лесков, Николай Семёнович */
+            .img-Leskov {
+                top: 369px;
+                left: 691px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Достоевский, Фёдор Михайлович */
+            .img-Dostoevski {
+                top: 326px; 
+                left: 715px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Иоанн Кронштадтский */
+            .img-Kronshtadtski {
+                top: 326px; 
+                left: 765px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Гермоген (патриарх Московский) */
+            .img-Germogen {
+                top: 343px; 
+                left: 870px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Родионов, Евгений Александрович */
+            .img-Rodionov {
+                top: 328px; 
+                left: 933px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Иоанн (Снычёв) */
+            .img-Ioann {
+                top: 328px;
+                left: 990px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Илий (Ноздрин) */
+            .img-Ilii {
+                top: 337px; 
+                left: 1034px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Булгаков, Сергей Николаевич */
+            .img-Bulgakov {
+                top: 352px; 
+                left: 1079px;
+                width: 45px;
+                height: 70px;
+            }
+        /* Образы-символы */
+            /* Мать */
+            .img-Mather {
+                top: 408px; 
+                left: 766px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Дедушка */
+            .img-Grandfather {
+                top: 404px; 
+                left: 966px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Мальчик */
+            .img-Boy {
+                top: 540px; 
+                left: 919px;
+                width: 45px;
+                height: 70px;
+            }
+    /* 4 ФРАГМЕНТ */
+        /* верхний ряд */
+            /* Шаляпин, Фёдор Иванович */
+            .img-Shalyapin {
+                top: 213px; 
+                left: 1283px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Вяльцева, Анастасия Дмитриевна */
+            .img-Valiceva {
+                top: 211px; 
+                left: 1337px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Тальков, Игорь Владими */
+            .img-Talkov {
+                top: 202px; 
+                left: 1401px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Бурляев, Николай Петрович */
+            .img-Byrlyaev {
+                top: 207px; 
+                left: 1441px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Белов, Василий Иванович */
+            .img-Belov {
+                top: 207px; 
+                left: 1486px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Ганичев, Валерий Николаевич */
+            .img-Ganichev {
+                top: 177px; 
+                left: 1535px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Захарченко, Виктор Гаврилович */
+            .img-Zaharchenko {
+                top: 173px; 
+                left: 1585px;
+                width: 45px;
+                height: 70px;
+            }
+        /* средний ряд */
+            /* Шухов, Владимир Григорьевич */
+            .img-Shuhov {
+                top: 271px; 
+                left: 1170px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Суриков, Василий Ивано*/
+            .img-Surikov {
+                top: 291px; 
+                left: 1230px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Есенин Сергей Александрович */
+            .img-Esenin {
+                top: 283px; 
+                left: 1406px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Распутин, Валентин Григорье*/
+            .img-Rasputin { 
+                top: 276px; 
+                left: 1464px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Михайлов, Александр Яковле*/
+            .img-Mihaylov {
+                top: 252px; 
+                left: 1513px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Клыков, Вячеслав Михайлович */
+            .img-Klykov {
+                top: 247px; 
+                left: 1558px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Михалков, Никита Сергее*/
+            .img-Mihalkov {
+                top: 247px; 
+                left: 1608px;
+                width: 45px;
+                height: 70px;
+            }
+        /* нижний ряд */
+            /* Столыпин, Пётр Аркадьевич */
+            .img-Stolypin {
+                top: 344px; 
+                left: 1140px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Скобелев, Михаил Дмитриевич */
+            .img-Skobelev {
+                top: 350px; 
+                left: 1202px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Бунин, Иван Алексеевич */
+            .img-Bunin {
+                top: 355px; 
+                left: 1255px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Шолохов, Михаил Александрович */
+            .img-Sholokhov {
+                top: 364px; 
+                left: 1335px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Бондарчук, Сергей Фёдорович */
+            .img-Bondarchuk {
+                top: 366px; 
+                left: 1402px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Поликарпов, Николай Николаевич */
+            .img-Polikarpov {
+                top: 367px; 
+                left: 1490px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Чечнева, Марина Павловна */
+            .img-Chechneva { 
+                top: 381px; 
+                left: 1525px;
+                width: 45px;
+                height: 70px;
+            }
+            /* Хренников, Тихон Николаевич */
+            .img-Khrennikov {
+                top: 334px; 
+                left: 1546px;
+                width: 45px;
+                height: 70px;
+                z-index: 1;
+            }
+            /* Кожедуб, Иван Никитович */
+            .img-Kozhedub {
+                top: 354px; 
+                left: 1598px;
+                width: 45px;
+                height: 70px;
+            }
+        /* сидят */
+            /* Андреев, Леонид Николаевич */
+            .img-Andreev { 
+                top: 596px; 
+                left: 1165px;
+                width: 70px;
+                height: 79px;
+            }
+            /* Тюленин, Сергей Гаврилович */
+            .img-Tulenin {
+                top: 677px; 
+                left: 1552px;
+                width: 70px;
+                height: 79px;
+            }
+    /* 5 ФРАГМЕНТ */
+        /* верхний ряд */
+            /* Рубцов, Николай Михайлович */
+            .img-Rubcov {
+                top: 189px; 
+                left: 1670px;
+                width: 35px;
+                height: 50px;
+            }
+            /* Свиридов, Георгий Васильевич */
+            .img-Sviridov { 
+                top: 187px; 
+                left: 1706px;
+                width: 35px;
+                height: 50px;
+                z-index: 1;
+            }
+            /* Вернадский, Владимир Иванович */
+            .img-Vernadsky {
+                top: 179px; 
+                left: 1736px;
+                width: 39px;
+                height: 73px;
+            }
+            /* Гагарин, Юрий Алексеевич */
+            .img-Gagarin {
+                top: 180px; 
+                left: 1775px;
+                width: 44px;
+                height: 68px;
+            }
+            /* Курчатов, Игорь Васильевич */
+            .img-Kurchatov {
+                top: 169px; 
+                left: 1845px;
+                width: 44px;
+                height: 68px;
+            }
+        /* средний ряд */
+            /* Глазунов, Илья Сергеевич */
+            .img-Glazunov {
+                top: 250px; 
+                left: 1680px;
+                width: 44px;
+                height: 68px;
+                z-index: 1;
+            }
+            /* Королёв, Сергей Павлович */
+            .img-Korolow {
+                top: 269px; 
+                left: 1710px;
+                width: 44px;
+                height: 68px;
+            }
+            /* Келдыш, Мстислав Всеволодович */
+            .img-Keldish {
+                top: 282px; 
+                left: 1811px;
+                width: 44px;
+                height: 68px;
+            }
+            /* Шойгу, Сергей Кужугетович */
+            .img-Shoigu {
+                top: 291px; 
+                left: 1856px;
+                width: 44px;
+                height: 68px;
+            }
+        /* нижний ряд */
+            /* Рокоссовский, Константин Константинович */
+            .img-Rokossowski {
+                top: 336px; 
+                left: 1657px;
+                width: 44px;
+                height: 68px;
+            }
+            /* Кузнецов, Николай Герасимович */
+            .img-Kuznetsov {
+                top: 339px; 
+                left: 1701px;
+                width: 48px;
+                height: 81px;
+            }
+            /* Жуков, Георгий Константинович */
+            .img-Zhukov {
+                top: 339px; 
+                left: 1749px;
+                width: 48px;
+                height: 81px;
+            }
+            /* Зыкина, Людмила Георгиевна */
+            .img-Zikina {
+                top: 357px; 
+                left: 1816px;
+                width: 48px;
+                height: 81px;        
+            }
+        /* сидит */
+            /* Шукшин, Василий Макарович */
+            .img-Shukshin {
+                top: 568px; 
+                left: 1722px;
+                width: 48px;
+                height: 81px; 
+            }
+/* КОНЕЦ ФРАГМЕНТОВ */
+
+/* Полоса информации*/
+    div.information-line{
+        /*background: #fff;
+        background-color:#c7b39b;
+        color: #fc9;*/
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        text-align: center;
+        
+        line-height: 20px;
+        font-size: 20px;
+
+        opacity: 0.75;
+        filter: alpha(Opacity=75); /* Прозрачность в IE */
+    }
+/* Конец Полоса информации*/
+
+/*Menu*/
+    .cf:before,
+    .cf:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    .cf:after {
+        clear: both;
+    }
+    .cf {
+        *zoom: 1;
+    }
+    ul.navbar {
+      border-radius: 0 0 30px 30px;
+      background: rgba(212, 237, 218, 0.75); /* Old browsers */
+
+      width: 850px;
+      position: absolute;
+      top: 50px; 
+      left: 50%;
+      transform: translate(-50%);
+    }
+    ul.navbar li {
+        list-style-type: none; /* Убираем маркеры */
+        float: left;
+        margin: 0;
+        position: relative;
+    }
+    ul.navbar li a {
+        display: flex;
+        align-items: center;
+        padding: 0px 0px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: all .2s ease-in-out;
+    }
+
+    ul.navbar li a img{
+        margin-right: 5px;
+    }
+
+    ul.navbar li a:hover,
+    ul.navbar li:hover > a {
+        background: #1c0da5;
+        color: #fff;
+    }
+    ul.navbar li a:active,
+    ul.navbar li:active > a {
+        background: #ff93d2;
+        color: #fff;
+    }
+
+    ul.navbar li ul {
+      margin: 0;
+      position: absolute;
+      background: #222;
+      left: 10%;
+      font-size: 10px;
+      min-width: 170px;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 99;
+      transition: all .1s ease;
+    }
+    ul.navbar ul li { float: none; }
+    ul.navbar li:hover > ul { opacity: 1; visibility: visible; left: 0; max-height: 250px }
+    ul.navbar > li:hover > ul { opacity: 1; visibility: visible; top: 100%; left: 0; }
+    ul.navbar li > ul  ul { top: 0; left: 90%; }
+    ul.navbar li > ul li:hover > ul { left: 100%; }
+/**/
+
+.form form {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .scrollbar {
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-bottom: 0px;
+    float: left;
+    height: 550px;
+    width: 65px;
+    background: #fff;
+    overflow-y: scroll;
+    }
+    .force-overflow {
+    min-height: 450px;
+    }
+
+    /* СКРОЛЛ БАР!*/
+    .scrollbar-primary::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #4285F4; }
+    
+    .scrollbar-danger::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-danger::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-danger::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ff3547; }
+    
+    .scrollbar-warning::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-warning::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-warning::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #FF8800; }
+    
+    .scrollbar-success::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-success::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-success::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #00C851; }
+    
+    .scrollbar-info::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-info::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-info::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #33b5e5; }
+    
+    .scrollbar-default::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-default::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-default::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #2BBBAD; }
+    
+    .scrollbar-secondary::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+    
+    .scrollbar-secondary::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5; }
+    
+    .scrollbar-secondary::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #aa66cc; }
